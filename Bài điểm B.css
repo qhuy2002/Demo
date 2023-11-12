@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10%;
+}
+
+header nav ul ol a{
+    float: left;
+    padding: 10px 20px;
+}
+
+header img{
+    width: 200px;
+}
+
+ol {
+    float: left;
+    border-right: 1px solid red;
+}
+/*---------------------------------------------------------------------------*/
+#menu{
+    width: 1000px;
+    height: 40px;
+    background: whitesmoke;
+    margin: 10px auto;   
+}
+
+ul.root > li{
+    list-style: none;
+    float: left;
+}
+
+ul.root > li a{
+    text-decoration: none;
+    color: black;
+    padding: 0px 16px 0px 16px;
+    line-height: 30px;
+    display: block;
+}
+
+ul.root > li a:hover{
+    background: yellow;
+    color: red;        
+}
+/*--------------------------------------------------------------------*/
+.NOPO{
+    border: 1px solid red;
+    background-color: red;
+}
+
+.SS{
+    border: 2px solid red;
+    background-color: red;
+}
+
+.text {
+    color: white;
+    position: absolute;
+    top: 300px;
+}
+
+.run {
+    color: white;
+    position: absolute;
+    top: 370px;
+}
+
+.BE{
+    border: 1px solid lightcoral;
+    background-color: lightcoral;
+}
+
+.s-menu a{
+    color: lightslategrey;
+    text-decoration: none;
+}
+
+.z-menu a{
+    color: lightcoral;
+    text-decoration: none;
+}
+
+
+.Huy__ a{
+    text-decoration:none;
+    color:black;
+    
+}
+
+.XE{
+    border: 1px solid lightslategray;
+    background-color: lightslategray;
+}
+
+.LC {
+    border-left: 1px solid black;
+}
+    

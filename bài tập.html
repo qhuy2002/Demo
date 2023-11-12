@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./index.css">
+    </head>
+    <body>
+        <table cellspacing="1px">
+            <thead>
+                <th colspan="2">ĐĂNG KÝ</th>
+                
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <label>Full name</label>
+                    </td>
+                    <td>
+                        <input type="text" required id="fullname" placeholder="Nhập fullname"><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Username</label>
+                    </td>
+                    <td>
+                        <input type="text" required id="username" placeholder="Nhập username"><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Password</label>
+                    </td>
+                    <td>
+                        <input type="password" required id="password"placeholder="Nhập password"><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Nhập lại Password</label>
+                    </td>
+                    <td>
+                        <input type="password" required id="repassword" placeholder="Nhập lại password"><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Giới tính</label>
+                    </td>
+                    <td>
+                        <input name="gioitinh" type="radio" value="Nam" checked/>Nam
+                        <input name="gioitinh" type="radio" value="Nữ" />Nữ
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Ngày sinh</label>
+                    </td>
+                    <td>
+                        <input type="date"><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Địa chỉ</label>
+                    </td>
+                    <td>
+                        <textarea id="textarea"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Avatar</label>
+                    </td>
+                    <td>
+                        <input type="file" name="upload" id="upload" onchange="ImagesFileAsURL()" />
+                        <div id="displayImg">
+                        
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Sở thích</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" >Xem phim
+                        <input type="checkbox" >Thể thao
+                        <input type="checkbox" >Web
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="text-align: center;">
+                        <button onclick="reset()">Reset</button>
+                        <button onclick="ok()">OK</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+    <script src="./index.js"></script>
+</html>

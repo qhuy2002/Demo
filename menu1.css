@@ -1,0 +1,24 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #dddddd;
+    position: fixed;
+    top: 0;
+}
+li{
+    float: left;
+    border-right: 1px solid #666123;
+}
+li a{
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+}
+div {
+    font-size: 40;
+}
+div > a {
+    font-size: 50;
+}

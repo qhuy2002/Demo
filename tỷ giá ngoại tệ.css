@@ -1,0 +1,26 @@
+table{
+    border: 2px solid blue;
+    border-collapse: collapse;
+    width: 30%;
+}
+td, th{
+    border: 1px solid blue;
+    padding: 5px;
+    text-align: center;
+}
+th{
+    background-color: lightblue;
+}
+.odd{
+    background-color: lightgreen;
+}
+.even{
+    background-color: lightyellow;
+}
+tr:hover{
+    background: yellow;
+    color: blue;
+}
+#USD{
+    background-color: orange;
+}
